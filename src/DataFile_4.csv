@@ -1,0 +1,123 @@
+customerNumber,customerName,contactLastName,postalCode,country
+103,"Atelier graphique",Schmitt,44000,France
+112,"Signal Gift Stores",King,83030,USA
+114,"Australian Collectors, Co.",Ferguson,3004,Australia
+119,"La Rochelle Gifts",Labrune,44000,France
+121,"Baane Mini Imports",Bergulfsen,4110,Norway
+124,"Mini Gifts Distributors Ltd.",Nelson,97562,USA
+125,"Havel & Zbyszek Co",Piestrzeniewicz,01-012,Poland
+128,"Blauer See Auto, Co.",Keitel,60528,Germany
+129,"Mini Wheels Co.",Murphy,94217,USA
+131,"Land of Toys Inc.",Lee,10022,USA
+141,"Euro+ Shopping Channel",Freyre,28034,Spain
+144,"Volvo Model Replicas, Co",Berglund,"S-958 22",Sweden
+145,"Danish Wholesale Imports",Petersen,1734,Denmark
+146,"Saveley & Henriot, Co.",Saveley,69004,France
+148,"Dragon Souveniers, Ltd.",Natividad,079903,Singapore
+151,"Muscle Machine Inc",Young,10022,USA
+157,"Diecast Classics Inc.",Leong,70267,USA
+161,"Technics Stores Inc.",Hashimoto,94217,USA
+166,"Handji Gifts& Co",Victorino,069045,Singapore
+167,"Herkku Gifts",Oeztan,"N 5804","Norway"
+168,"American Souvenirs Inc",Franco,97823,USA
+169,"Porto Imports Co.","de Castro",1756,Portugal
+171,"Daedalus Designs Imports",Rancé,59000,France
+172,"La Corne D'abondance, Co.",Bertrand,75012,France
+173,"Cambridge Collectables Co.",Tseng,51247,USA
+175,"Gift Depot Inc.",King,97562,USA
+177,"Osaka Souveniers Co.",Kentary," 530-0003",Japan
+181,"Vitachrome Inc.",Frick,10022,USA
+186,"Toys of Finland, Co.",Karttunen,21240,Finland
+187,"AV Stores, Co.",Ashworth,"EC2 5NT",UK
+189,"Clover Collections, Co.",Cassidy,2,Ireland
+198,"Auto-Moto Classics Inc.",Taylor,58339,USA
+201,"UK Collectables, Ltd.",Devon,"WX1 6LT",UK
+202,"Canadian Gift Exchange Network",Tamuri,"V3F 2K1",Canada
+204,"Online Mini Collectables",Barajas,58339,USA
+205,Toys4GrownUps.com,Young,90003,USA
+206,"Asian Shopping Network, Co",Walker,038988,Singapore
+209,"Mini Caravy",Citeaux,67000,France
+211,"King Kong Collectables, Co.",Gao,NULL,"Hong Kong"
+216,"Enaco Distributors",Saavedra,08022,Spain
+219,"Boards & Toys Co.",Young,92561,USA
+223,"Natürlich Autos",Kloss,01307,Germany
+227,"Heintze Collectables",Ibsen,8200,Denmark
+233,"Quebec Home Shopping Network",Fresniere,"H1J 1C3",Canada
+237,"ANG Resellers",Camino,28001,Spain
+239,"Collectable Mini Designs Co.",Thompson,91217,USA
+240,giftsbymail.co.uk,Bennett,"PO31 7PJ",UK
+242,"Alpha Cognac",Roulet,31000,France
+247,"Messner Shopping Network",Messner,60528,Germany
+249,"Amica Models & Co.",Accorti,10100,Italy
+250,"Lyon Souveniers","Da Silva",75508,France
+256,"Auto Associes & Cie.",Tonini,78000,France
+259,"Toms Spezialitaten, Ltd",Pfalzheim,50739,Germany
+260,"Royal Canadian Collectables, Ltd.",Lincoln,"T2F 8M4",Canada
+273,"Franken Gifts, Co",Franken,80805,Germany
+276,"Anna's Decorations, Ltd",O'Hara,2060,Australia
+278,"Rovelli Gifts",Rovelli,24100,Italy
+282,"Souveniers And Things Co.",Huxley,2067,Australia
+286,"Marta's Replicas Co.",Hernandez,51247,USA
+293,"BG&E Collectables",Harrison,1700,Switzerland
+298,"Vida Sport, Ltd",Holz,1203,Switzerland
+299,"Norway Gifts By Mail, Co.",Klaeboe,"N 0106","Norway  "
+303,"Schuyler Imports",Schuyler,"1043 GR",Netherlands
+307,"Der Hund Imports",Andersen,12209,Germany
+311,"Oulu Toy Supplies, Inc.",Koskitalo,90110,Finland
+314,"Petit Auto",Dewey,B-1180,Belgium
+319,"Mini Classics",Frick,24067,USA
+320,"Mini Creations Ltd.",Huang,50553,USA
+321,"Corporate Gift Ideas Co.",Brown,94217,USA
+323,"Down Under Souveniers, Inc",Graham,NULL,"New Zealand"
+324,"Stylish Desk Decors, Co.",Brown,"WX3 6FW",UK
+328,"Tekni Collectables Inc.",Brown,94019,USA
+333,"Australian Gift Network, Co",Calaghan,4101,Australia
+334,"Suominen Souveniers",Suominen,FIN-02271,Finland
+335,"Cramer Spezialitäten, Ltd",Cramer,14776,Germany
+339,"Classic Gift Ideas, Inc",Cervantes,71270,USA
+344,"CAF Imports",Fernandez,28023,Spain
+347,"Men 'R' US Retailers, Ltd.",Chandler,91003,USA
+348,"Asian Treasures, Inc.",McKenna,NULL,Ireland
+350,"Marseille Mini Autos",Lebihan,13008,France
+353,"Reims Collectables",Henriot,51100,France
+356,"SAR Distributors, Co",Kuger,0028,"South Africa"
+357,GiftsForHim.com,MacKinlay,NULL,"New Zealand"
+361,"Kommission Auto",Josephs,44087,Germany
+362,Gifts4AllAges.com,Yoshido,51003,USA
+363,"Online Diecast Creations Co.",Young,62005,USA
+369,"Lisboa Souveniers, Inc",Rodriguez,1675,Portugal
+376,"Precious Collectables",Urs,3012,Switzerland
+379,"Collectables For Less Inc.",Nelson,58339,USA
+381,"Royale Belge",Cartrain,B-6000,Belgium
+382,"Salzburg Collectables",Pipps,5020,Austria
+385,"Cruz & Sons Co.",Cruz,"1227 MM",Philippines
+386,"L'ordine Souveniers",Moroni,42100,Italy
+398,"Tokyo Collectables, Ltd",Shimamura,106-0032,Japan
+406,"Auto Canal+ Petit",Perrier,75016,France
+409,"Stuttgart Collectable Exchange",Müller,70563,Germany
+412,"Extreme Desk Decorations, Ltd",McRoy,NULL,"New Zealand"
+415,"Bavarian Collectables Imports, Co.",Donnermeyer,80686,Germany
+424,"Classic Legends Inc.",Hernandez,10022,USA
+443,"Feuer Online Stores, Inc",Feuer,04179,Germany
+447,"Gift Ideas Corp.",Lewis,97561,USA
+448,"Scandinavian Gift Ideas",Larsson,"S-844 67",Sweden
+450,"The Sharp Gifts Warehouse",Frick,94217,USA
+452,"Mini Auto Werke",Mendel,8010,Austria
+455,"Super Scale Inc.",Murphy,97823,USA
+456,"Microscale Inc.",Choi,10022,USA
+458,"Corrida Auto Replicas, Ltd",Sommer,28023,Spain
+459,"Warburg Exchange",Ottlieb,52066,Germany
+462,FunGiftIdeas.com,Benitez,50553,USA
+465,"Anton Designs, Ltd.",Anton,28023,Spain
+471,"Australian Collectables, Ltd",Clenahan,3150,Australia
+473,"Frau da Collezione",Ricotti,NULL,Italy
+475,"West Coast Collectables Co.",Thompson,94019,USA
+477,"Mit Vergnügen & Co.",Moos,68306,Germany
+480,"Kremlin Collectables, Co.",Semenov,196143,Russia
+481,"Raanan Stores, Inc","Altagar,G M",47625,Israel
+484,"Iberia Gift Imports, Corp.",Roel,41101,Spain
+486,"Motor Mint Distributors Inc.",Salazar,71270,USA
+487,"Signal Collectibles Ltd.",Taylor,94217,USA
+489,"Double Decker Gift Stores, Ltd",Smith,"WA1 1DP",UK
+495,"Diecast Collectables",Franco,51003,USA
+496,"Kelly's Gift Shop",Snowden,NULL,"New Zealand"

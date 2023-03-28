@@ -1,4 +1,4 @@
-from PyTableWiz_test.table_check_1 import TableWizard
+from PyTableWiz.PythonTableWizard import TableWizard
 
 TableWizard("src/DataFile_2.csv", limit=6, view_attr=['officeCode', 'addressLine1'])
 
