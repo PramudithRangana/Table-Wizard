@@ -8,7 +8,7 @@ from timeit import default_timer as timer
 
 class TableWizard:
     def __init__(self, file_path, dialect_mode="r", limit=100, justify='left',
-                 align=None, acc_details=True, DTE=None,
+                 align=None, acc_details=True, SelectedRows=None, DTE=None,
                  tl="┌", ti="┬", tr="┐", hdl="├", hdi="┼", hdr="┤", bl="└", bi="┴", br="┘", vl="│", hl="─"):
 
         self.file_path = file_path
@@ -17,6 +17,7 @@ class TableWizard:
         self.justify = justify
         self.align = align  # need in dictionary format
         self.accessories_details = acc_details
+        self.RowSelection = SelectedRows  # need in dictionary format
         self.Derived_table = DTE  # need in list format
 
         # adjustments
@@ -58,30 +59,48 @@ class TableWizard:
 
     # get all data
     def dataReader(self):
-        # get file path
+        # file path confirmation
         if self.file_path:
             try:
-                with open(self.file_path, self.dialect_mode) as f:
-                    csvRead = csv.reader(f)
+                if self.Derived_table is None:
+                    with open(self.file_path, self.dialect_mode) as f:
+                        csvDicRead = csv.DictReader(f)
+                        # Add Heading
+                        self.data_list.append(csvDicRead.fieldnames)
+                        # Add content
+                        # Check specified (selected) rows
+                        # Original Table with existing attributes and selected rows
+                        if self.RowSelection:
+                            for row in csvDicRead:
+                                for ix, n in enumerate(self.RowSelection):
+                                    # Grab specified rows from data (csv) file
+                                    if row[n] in (list(self.RowSelection.values())[ix]):
+                                        self.data_list.append(list(row.values()))
+                        else:
+                            # Original Table (with Limited Rows)
+                            for row in csvDicRead:
+                                # append data for (normal) table creation
+                                self.data_list.append([r for r in row.values()])
 
-                    if self.Derived_table is None:
-                        for row in csvRead:
-                            # append data for (normal) table creation
-                            self.data_list.append(row)
                         return self.data_list
-
-                    else:
-                        # Derived Table Expression
-                        for row in csvRead:
-                            # store table data temporary
-                            self.temp_data_list.append(row)
-                            # find index number of each column by headers
-                            if not self.col_index:
-                                # find index number of each column by headers(column name)
-                                self.col_index = [self.temp_data_list[0].index(x) for x in self.Derived_table if
-                                                  x in self.temp_data_list[0]]
-                            # append data for (derived) table creation
-                            self.data_list.append(list(row[i] for i in self.col_index))
+                else:
+                    # Add Heading
+                    self.data_list.append([i for i in self.Derived_table])
+                    # Add content
+                    with open(self.file_path, self.dialect_mode) as f:
+                        csvDicRead = csv.DictReader(f)
+                        # Derived Table Expression with specified (selected) rows
+                        if self.RowSelection:
+                            for row in csvDicRead:
+                                for ix, n in enumerate(self.RowSelection):
+                                    # Grab specified rows from data (csv) file
+                                    if row[n] in (list(self.RowSelection.values())[ix]):
+                                        self.data_list.append(list(row[i] for i in self.Derived_table))
+                        else:
+                            # Derived Table Expression (with Limited Rows)
+                            for row in csvDicRead:
+                                # append data for (derived) table creation
+                                self.data_list.append(list(row[i] for i in self.Derived_table))
 
                         return self.data_list
             except Exception as e:
